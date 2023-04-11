@@ -1,0 +1,33 @@
+@import 'Styles/Global.scss';
+
+.iconButtonsContainer {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+
+  .iconPlusLabel {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+
+    &:hover {
+      background-color: $elGray;
+    }
+
+    img {
+      height: 18px;
+
+    }
+  }
+
+  .line-vert {
+    background-color: $elGray;
+    height: 20px;
+    width: 1px;
+    margin: 5px;
+  }
+
+}

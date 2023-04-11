@@ -1,0 +1,5 @@
+export const LOGIN = "LOGIN";
+export const LOG_OUT = "LOG_OUT";
+export const ASSIGN_MEMBER = "ASSIGN_MEMBER";
+export const UPDATE_PROFILE = "UPDATE_PROFILE";
+export const UPDATE_COMPANY_PROFILE = "UPDATE_COMPANY_PROFILE";

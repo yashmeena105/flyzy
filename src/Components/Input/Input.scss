@@ -1,0 +1,100 @@
+@import "Styles/Global.scss";
+
+.field-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    // min-width: 300px;
+
+    .star-required {
+        color: $required;
+    }
+
+    .label {
+        color: $label-font-color;
+        margin-bottom: 5px;
+        font-size: $label-font-size;
+    }
+
+    .input {
+        border: 1px solid #ccc;
+        padding: 8px 10px;
+        border-radius: 2px;
+        width: 100%;
+        max-width: 100%;
+
+        &:focus {
+            border-width: 2px;
+            border: 1px solid $flyzyBlue;
+            outline: 3px solid $flyzyBlue50;
+        }
+
+        &:hover {
+            border: 1px solid $flyzyBlue;
+        }
+    }
+
+    .input-error {
+        border-color: $error-input-color;
+    }
+
+    .error-message {
+        color: $error-message-color;
+        margin-left: 10px;
+        margin-top: 5px;
+        font-size: 12px;
+    }
+
+}
+
+
+
+.password-field-conatiner {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    min-width: 300px;
+
+
+    .star-required {
+        color: $required;
+    }
+
+    label {
+        color: $label-font-color;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        font-size: 6px;
+    }
+
+    .password-input-wrapper {
+        position: relative;
+
+        input {
+            border: 1.5px solid #30303D;
+            padding: 0.75rem 1rem;
+            width: 100%;
+        }
+
+        .input-error {
+            border-color: $error-input-color;
+        }
+
+        img {
+            position: absolute;
+            height: 25px;
+            width: 25px;
+            right: 5%;
+            top: 50%;
+            cursor: pointer;
+            transform: translate(0, -50%);
+        }
+    }
+
+    .error-message {
+        color: $error-message-color;
+        margin-left: 10px;
+        margin-top: 5px;
+        font-size: 12px;
+    }
+}

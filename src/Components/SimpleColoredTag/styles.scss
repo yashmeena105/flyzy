@@ -1,0 +1,39 @@
+@import "Styles/Global.scss";
+
+.tag-colored {
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 4px 8px;
+  width: fit-content;
+}
+
+.lightBlue {
+  background-color: $lightBlue;
+}
+
+.lightRed {
+  background-color: $lightRed;
+}
+
+.gold {
+  background-color: $gold;
+  border: 1.5px solid $darkGold;
+}
+
+.green {
+  background-color: $green;
+}
+
+.gray {
+  background-color: $gray;
+  color: white;
+}
+
+.lightPurple {
+  background-color: $lightPurple;
+}
+
+.flyzyBlue {
+  background-color: $flyzyBlue;
+  color: white;
+}

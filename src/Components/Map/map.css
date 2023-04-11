@@ -1,0 +1,34 @@
+.google-map {
+  width: 100%;
+  height: 100%;
+}
+
+.pin {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  color: red;
+}
+
+.pin-icon {
+  font-size: 4em;
+}
+
+.pin-text {
+  font-size: 1em;
+}
+
+@media screen and (min-width: 799px) {
+  .google-map {
+    width: 100%;
+    height: 100%;
+  }
+
+  .pin {
+    width: 50px;
+  }
+
+  .pin-icon {
+    font-size: 4em;
+  }
+}

@@ -1,0 +1,12 @@
+@import 'Styles/Global.scss';
+
+.threedotmenu{
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+
+  &:hover{
+    background-color: $elGray;
+    border-radius: 5px;
+  }
+}

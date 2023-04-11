@@ -1,0 +1,22 @@
+.addDay {
+  padding: 10px 20px;
+  width: fit-content;
+  border: 1px dashed #1677ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 14px;
+
+  &:hover {
+    border: 1px solid #1677ff;
+    color: #1677ff;
+  }
+
+  .add {
+    color: #1677ff;
+
+  }
+}

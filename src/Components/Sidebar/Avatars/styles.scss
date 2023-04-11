@@ -1,0 +1,37 @@
+@import "Styles/Global.scss";
+
+.avatars {
+  position: relative;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+
+  .myAvatar {
+    vertical-align: middle;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid $elGray;
+    object-fit: cover;
+
+    &:hover {
+      border: 2px solid $elGray;
+    }
+  }
+
+  .companyAvatar {
+    vertical-align: middle;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid $elGray;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    object-fit: cover;
+
+    &:hover {
+      border: 2px solid $elGray;
+    }
+  }
+}

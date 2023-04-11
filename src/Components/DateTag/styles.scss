@@ -1,0 +1,26 @@
+@import "Styles/Global.scss";
+
+.date-tag {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 1px;
+  padding-right: 8px;
+  background-color: $elGray;
+  gap: 0;
+  width: fit-content;
+
+
+  .ico {
+    max-height: 14px;
+    object-fit: contain;
+    margin: 0;
+    // border: 1px solid;
+  }
+
+  .txt {
+    font-size: 12px;
+  }
+}

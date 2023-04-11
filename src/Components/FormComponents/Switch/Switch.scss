@@ -1,0 +1,27 @@
+.custom-switch {
+  height: 30px;
+  width: 50px;
+  border-radius: 20px;
+  background: rgba(120, 120, 128, 0.16);
+  cursor: pointer;
+
+  .toggle {
+    box-sizing: border-box;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(120, 120, 128, 0.16);
+    transition: margin 2s;
+    // box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    //   rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  }
+
+  .on {
+    margin-right: auto;
+  }
+
+  .off {
+    margin-left: auto;
+  }
+}

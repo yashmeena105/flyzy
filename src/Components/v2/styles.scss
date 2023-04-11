@@ -1,0 +1,14 @@
+.link {
+  cursor: pointer;
+  transition: transform .2s;
+  color: #000000e0;
+
+  &:hover {
+    color: #1677ff;
+    transform: scale(1.5);
+  }
+}
+
+.secondary {
+  color: gray;
+}

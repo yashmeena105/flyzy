@@ -1,0 +1,18 @@
+@import "Styles/Global.scss";
+
+.avatar {
+  cursor: pointer;
+
+  .userIcon {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid $elGray;
+    object-fit: cover;
+
+    &:hover {
+      border: 2px solid $elGray;
+    }
+  }
+}

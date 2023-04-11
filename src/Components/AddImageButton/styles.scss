@@ -1,0 +1,19 @@
+.addImage {
+  width: 100px;
+  height: 60px;
+  border: 1px dashed #1677ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 6px;
+
+  &:hover {
+    border: 1px solid #1677ff;
+  }
+
+  .add {
+    color: #1677ff;
+
+  }
+}

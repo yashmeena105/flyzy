@@ -1,0 +1,31 @@
+@import "Styles/Global.scss";
+
+.myavatar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // border: 2px solid aqua;
+
+  .userIcon {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid $elGray;
+    object-fit: cover;
+
+
+  }
+
+  .changeButton {
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+    
+    &:hover {
+      color: $flyzyBlue;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import "Styles/Global.scss";
+
+.topbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 5px 10px;
+  border-bottom: 1px solid $elGray;
+
+  p {
+    font-weight: bold;
+    font-size: 16px;
+    margin: unset;
+    padding: unset;
+  }
+
+}

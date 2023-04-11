@@ -1,0 +1,58 @@
+@import "Styles/Global.scss";
+
+.lead-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-weight: bold;
+  padding: 20px 30px 10px 20px;
+  margin: 0 10px;
+  border-bottom: 1px solid $elGray;
+
+  .flex-1{
+    flex: 10;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+  }
+  .flex-2{
+    flex: 15;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+  }
+  .flex-3{
+    flex: 20;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+  }
+  .flex-0{
+    flex: 7;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+  }
+
+  .col{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+
+    .dates{
+      display: flex;
+      justify-content: center;
+    }
+    .pax{
+      font-weight: 300;
+      font-size: 14px;
+    }
+
+  }
+  
+}

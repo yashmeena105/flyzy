@@ -1,0 +1,94 @@
+@import "Styles/Global.scss";
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  height: fit-content;
+
+  // border: 5px solid green;
+  .tb {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    .left {
+      max-width: 400px;
+      min-width: 400px;
+    }
+
+    .right {
+      max-width: 450px;
+
+      .imagesWrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .images {
+        display: flex;
+
+      }
+    }
+  }
+
+  label {
+    color: $label-font-color;
+    font-size: $label-font-size;
+  }
+
+  .datePicker {
+    width: 400px;
+  }
+
+  .date-range {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+
+    .set {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .calendarInput {
+    border: 1px solid #ccc;
+    padding: 8px 8px;
+    border-radius: 2px;
+    width: 100%;
+
+    &:focus {
+      border-width: 2px;
+      border: 1px solid $flyzyBlue;
+      outline: 3px solid $flyzyBlue50;
+    }
+
+    &:hover {
+      border: 1px solid $flyzyBlue;
+    }
+  }
+
+  .inputRow {
+    // border: 2px solid blue;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+
+    .flexBox {
+      flex: 1;
+      // border: 1px solid aqua;
+    }
+  }
+
+  .hide {
+    visibility: hidden;
+  }
+}
+
+.divider {
+  width: 100%;
+  border-top: 1px solid lightgrey;
+}

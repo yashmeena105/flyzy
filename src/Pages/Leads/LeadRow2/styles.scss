@@ -1,0 +1,68 @@
+@import "Styles/Global.scss";
+
+.lead-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  margin: 10px 20px;
+  box-shadow: $shadowLight;
+  cursor: pointer;
+  padding: 20px 0;
+
+  &:hover{
+    box-shadow: $shadowDark;
+  }
+
+  .id{
+    font-size: 14px;
+  }
+
+  .flex-1{
+    flex: 10;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+  }
+  .flex-2{
+    flex: 15;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+  }
+  .flex-3{
+    flex: 20;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+  }
+  .flex-0{
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+  }
+
+  .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+
+    .tag-colored{
+      margin-left: 20px;
+    }
+
+  }
+
+  .wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+}

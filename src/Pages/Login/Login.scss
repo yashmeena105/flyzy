@@ -1,0 +1,18 @@
+.login-container{
+    display:flex;
+    height:100%;
+    justify-content:center;
+    align-items:center ;
+
+    .heading{
+        color: #5A5A5A;
+        font-weight: 600;
+    }
+}
+
+.login-wrapper{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    max-width: 300px;
+}

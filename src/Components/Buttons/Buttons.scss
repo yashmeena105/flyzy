@@ -1,0 +1,85 @@
+@import "Styles/Global.scss";
+
+.social-login-button {
+    padding: 0.75rem;
+    border: 2px solid #30303D;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+    &:hover {
+        background-color: #30303D;
+        color: white;
+
+        img {
+            background-color: white;
+        }
+    }
+
+    &:disabled {
+        background-color: white;
+        color: #BCBCBC;
+
+        img {
+            background-color: #BCBCBC;
+        }
+    }
+
+    img {
+        margin-right: 10px;
+    }
+}
+
+
+
+.fixed-width-button {
+    padding: 8px;
+    outline: unset;
+    border: unset;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: white;
+    width: 100%
+
+
+}
+
+.primary {
+    border: 1px solid $flyzyBlue;
+    background-color: $flyzyBlue;
+    color: white;
+
+    &:hover {
+        background-color: $edFlyzyBlue;
+    }
+}
+
+.standard {
+    border: 1px solid $flyzyBlue;
+    color: $flyzyBlue;
+
+    &:hover {
+        background-color: $flyzyBlue;
+        color: white;
+    }
+}
+
+.red {
+    border: 1px solid $almostRed;
+    color: $almostRed;
+
+    &:hover {
+        background-color: $almostRed;
+        color: white;
+    }
+}
+
+.disabled{
+    color: lightgray;
+    border: 1px solid lightgray;
+}

@@ -1,0 +1,122 @@
+.asset-manager-main {
+  flex: 1 1 85vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  .asset-explorer-heading {
+    // box-shadow: 0px 3.91667px 9.79167px rgba(73, 101, 201, 0.34);
+    padding: 5px;
+    padding-left: 50px;
+    z-index: 1;
+    border-bottom: 1px solid rgba(203, 203, 203, 1);
+
+    h1 {
+      margin: 0;
+      color: black;
+      font-weight: 550;
+      font-size: 1.25rem;
+      letter-spacing: 1px;
+    }
+  }
+
+  .asset-explorer-search {
+    // box-shadow: 0px 3.91667px 9.79167px rgba(73, 101, 201, 0.34);
+    padding: 10px;
+    padding-left: 50px;
+    border-bottom: 1px solid rgba(203, 203, 203, 1);
+    display: flex;
+    justify-content: flex-end;
+
+    input {
+      width: 40%;
+      max-width: 350px;
+      padding: 9px;
+      color: #a7a7a7;
+      border: 1px solid rgba(0, 0, 0, 0.38);
+      border-radius: 4px;
+      outline: none;
+      margin-right: 50px;
+    }
+  }
+
+  .asset-explorer-main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    .asset-explorer-main-heading {
+      display: flex;
+      text-align: center;
+      color: #000000;
+      font-weight: 500;
+      font-size: 20px;
+      padding: 20px 2rem;
+      border-bottom: 1px solid rgba(203, 203, 203, 1);
+
+      .label {
+        flex: 1 1 35%;
+      }
+      .preview {
+        flex: 1 1 20%;
+      }
+      .dimensions {
+        flex: 1 1 20%;
+      }
+      .size {
+        flex: 1 1 15%;
+      }
+      .actions {
+        flex: 1 1 15%;
+      }
+    }
+
+    .asset-explorer-items {
+      max-height: 40vh;
+      overflow-y: scroll;
+      padding: 0 25px;
+    }
+
+    .asset-uploading-items {
+      max-height: 15vh;
+      overflow-y: scroll;
+      margin-top: auto;
+      padding: 0 25px;
+      border-top: 1.5px solid rgba(203, 203, 203, 1);
+    }
+
+    .asset-image-upload-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: auto;
+      //not working check
+      justify-self: flex-end;
+      align-self: center;
+      min-height: 75px;
+      width: 97%;
+      border: 2px dashed #828282;
+      border-radius: 5px;
+      cursor: pointer;
+      input {
+        display: none;
+      }
+
+      .content {
+        display: flex;
+        span {
+          display: flex;
+          align-items: center;
+          margin-right: 10px;
+        }
+
+        .upload-button {
+          background: #1677ff;
+          color: #ffffff;
+          border-radius: 3px;
+          padding: 10px 20px;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+@import "Styles/Global.scss";
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 45px;
+  color: $gray;
+  cursor: pointer;
+  background-color: white;
+
+
+  &:hover {
+    border: 1px solid $elFlyzyBlue;
+    color: $flyzyBlue;
+
+    .stick {
+      background-color: $flyzyBlue;
+    }
+  }
+
+  .stick {
+    width: 4px;
+    height: 70%;
+    margin-right: 16px;
+  }
+}
+
+.active {
+  background-color: #fff;
+  color: $flyzyBlue;
+  font-weight: bold;
+
+  .stick {
+    background-color: $flyzyBlue;
+  }
+}

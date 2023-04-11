@@ -1,0 +1,11 @@
+@import "Styles/Global.scss";
+
+.destination-tag {
+  display: flex;
+  align-items: center;
+  min-width: 100px;
+  font-size: 14px;
+  padding: 4px 8px;
+  background-color: white;
+  border: 1px solid $gray;
+}

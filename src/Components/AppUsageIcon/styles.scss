@@ -1,0 +1,18 @@
+@import "Styles/Global.scss";
+
+.date-tag{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 4px;
+  background-color: $elGray;
+
+  img{
+    width: 20px;
+    height: 20px;
+    fill: red;
+  }
+}

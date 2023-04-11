@@ -1,0 +1,26 @@
+@import "Styles/Global.scss";
+
+.pax-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  gap: 4px;
+  // border-radius: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 12px;
+  // border: 1px solid $elGray;
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .vline {
+    width: 1.5px;
+    height: 15px;
+    margin: 0 3px;
+    background-color: $elGray;
+  }
+}
