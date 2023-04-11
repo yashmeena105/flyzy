@@ -41,6 +41,13 @@ const { RangePicker } = DatePicker;
 const dateFormat = "DD/MM/YYYY";
 
 const Dashboard = () => {
+  const [show, setshow] = useState("");
+  const handleClose = () => {
+    setshow("none");
+    // console.log("close btn clicked");
+    // alert("Do you really want to close");
+  };
+
   const { profile } = useSelector((state) => state.profile);
   const navigate = useNavigate();
 
@@ -102,10 +109,28 @@ const Dashboard = () => {
           backgroundColor: "#F7E5E9",
           borderRadius: "8px",
           padding: "20px 20px 30px 50px",
-          height: "160px",
+          height: "auto",
+          display: show,
         }}
         justify="space-between"
       >
+        <div
+          style={{
+            height: "50px",
+            width: "100%",
+            alignContent: "right",
+          }}
+        >
+          <Button
+            icon={<CloseOutlined style={{ color: "gray" }} />}
+            style={{
+              marginLeft: "95%",
+            }}
+            type="text"
+            shape="circle"
+            onClick={handleClose}
+          />
+        </div>
         <Col span={12}>
           <div
             style={{
@@ -146,11 +171,6 @@ const Dashboard = () => {
                 ></img>
               </Row>
             </Col>
-            <Button
-              icon={<CloseOutlined style={{ color: "gray" }} />}
-              type="text"
-              shape="circle"
-            />
           </Row>
         </Col>
       </Row>
